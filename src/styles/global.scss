@@ -1,0 +1,78 @@
+@import './vars.scss';
+
+body {
+    main {
+        overflow: hidden;
+    }
+
+    a,
+    button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        text-transform: unset;
+        text-decoration: none;
+    }
+
+    img,
+    video {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+    }
+}
+
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &.input {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+button {
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+
+    &.color-1 {
+        background-color: $primary-color;
+        color: $color-white;
+    }
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    appearance: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    line-height: 1rem;
+    padding: 0.5rem 0.5rem;
+}

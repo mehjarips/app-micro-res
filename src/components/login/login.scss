@@ -1,0 +1,11 @@
+.login-wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+    box-shadow: $shadow-medium;
+    padding: 1.5rem;
+
+    & .title {
+        margin-bottom: 0.875rem;
+    }
+
+}
