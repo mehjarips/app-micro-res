@@ -1,0 +1,17 @@
+.button-container {
+    & .btn {
+        min-width: 120px;
+        font-size: 1rem;
+        padding: 10px 12px;
+    }
+
+    & .primary-btn {
+        background-color: #dfad4e;
+        color: white;
+    }
+
+    & .secondary-btn {
+        background-color: #7b2eb9;
+        color: white;
+    }
+}

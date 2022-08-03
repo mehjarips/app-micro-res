@@ -30,6 +30,12 @@ body {
     }
 }
 
+@mixin content-container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
 
 .container {
     max-width: 75rem;
